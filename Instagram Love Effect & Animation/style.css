@@ -1,0 +1,32 @@
+body{
+background-color:lightseagreen;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 70px;
+}
+
+.container{
+    height: 450px;
+    width: 350px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.container img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+svg{
+    height: 40px;
+    position: absolute;
+    opacity: 0;
+    transform: scale(0);
+    transition: all ease 0.4s;
+    
+
+    
+}
